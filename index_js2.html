@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
+    <title>電卓</title>
+    <link rel="stylesheet" href="main_js2.css">
+  </head>
+  <body>
+    <form name="calculator">
+      <input type="text" id="display"/>
+      <input type="button" value="7" onclick="calc(this)"/>
+      <input type="button" value="8" onclick="calc(this)"/>
+      <input type="button" value="9" onclick="calc(this)"/>
+      <input type="button" value="+" onclick="calc(this)" id="add"/>
+      <br>
+      <input type="button" value="4" onclick="calc(this)"/>
+      <input type="button" value="5" onclick="calc(this)"/>
+      <input type="button" value="6" onclick="calc(this)"/>
+      <input type="button" value="-" onclick="calc(this)" id="minus"/>
+      <br>
+      <input type="button" value="1" onclick="calc(this)"/>
+      <input type="button" value="2" onclick="calc(this)"/>
+      <input type="button" value="3" onclick="calc(this)"/>
+      <input type="button" value="*" onclick="calc(this)" id="multiplication"/>
+      <br>
+      <input type="button" value="0" onclick="calc(this)"/>
+      <input type="button" value="00" onclick="calc(this)"/>
+      <input type="button" value="." onclick="calc(this)" id="point"/>
+      <input type="button" value="/" onclick="calc(this)" id="division"/>
+      <br>
+      <div class="bottom_button"> 
+      <input type="button" value="AC" onclick="calc(this)"/>
+      <input type="button" value="=" onclick="equalButton()"/>
+      </div>
+    </form> 
+  <script src="main_js2.js"></script>    
+  </body>
+</html>
